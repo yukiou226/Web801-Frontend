@@ -8,7 +8,7 @@ header{background:url(images/central_park.jpg) 0-200px no-repeat;/* this is the 
         font-weight: bold;
         font-family: Arial,helvetica,sans-serif;}
 
-        li{list-style-type: none; display: inline;}
+        li{list-style-type: none; display: inline; padding:0 20px;}
 
         li a{text-decoration: none;}
         li a:link{color:#000000;}
@@ -23,10 +23,17 @@ header{background:url(images/central_park.jpg) 0-200px no-repeat;/* this is the 
 
         main {margin:50px}
 
-        table,caption,td{margin-top: 35px;
+        table,caption,th,td{margin-top: 35px;
         border: 1px solid #000000;
         }
+        th,td{width:150px; height:35px;text-align:center;}
+        caption{text-transform:upppercase; font-weight:600; height:40px;padding-top:15px;color:#753a30;}
 
+        label{display:block; margin:15px 0 0 0;}
+        input{width: 300px;}
+        input[type="radio"]{width: 25px;}
+        textarea{width:300px;}
+        input[type="submit"]{display:block; margin:20px 0 10px 0; width: 100px;}
         main h1{color:rgb(129,141,179); font-family:arial;}
         footer{height:40px;background-color:rgb(129,141,179);text-align:center;color:rgb(211,218,240);}
 
